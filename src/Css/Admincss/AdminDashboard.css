@@ -1,0 +1,369 @@
+
+
+
+.contenu-right {
+  width: 85%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+
+.contenu-right h4 {
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.34);
+  height: 11vh;
+
+}
+
+.contenu-right p {
+  margin-top: -4vh;
+  margin-left: 1%;
+}
+
+.nombre-total {
+  width: 100%;
+  height: 12vh;
+  background-color: aqua;
+  margin-top: -2vh;
+}
+
+.dashboard-cards-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  height: 20vh;
+}
+
+.dashboard-header {
+  width: 100%;
+  height: 12vh;
+}
+
+.icons {
+  width: 15%;
+  height: 6vh;
+  margin-top: -12vh;
+  margin-left: 80%;
+}
+
+.dashboard-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(128, 128, 128, 0.34);
+  width: 200px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 10px;
+}
+
+.card-value {
+  font-size: 1.25rem !important;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
+.card-icon {
+  font-size: 0.8rem;
+  /* Ajustez la taille des icônes selon vos préférences */
+  color: white;
+  /* Couleur des icônes */
+  text-align: right;
+  /* Aligne les icônes à droite */
+  margin-top: -5vh;
+  /* Place l'icône au bas de la carte */
+}
+
+
+.bleu {
+  background-color: rgba(0, 97, 242, 1);
+}
+
+.orange {
+  background-color: rgba(244, 161, 0, 1);
+}
+
+.vert {
+  background-color: #00ba94;
+}
+
+.yellow {
+  background-color: rgb(184, 184, 39);
+}
+
+.red {
+  background-color: rgb(196, 57, 57);
+}
+
+.violet {
+  background-color: rgb(160, 43, 158);
+}
+
+.diagrams-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* Adjust as needed */
+}
+
+.diagram-box {
+  width: 40%;
+  /* Adjust width to fit your design */
+  height: 60vh;
+  background-color: #fff;
+  /* Adjust as needed */
+  border: 1px solid #ddd;
+  /* Adjust border as needed */
+  border-radius: 8px;
+  /* Adjust border radius as needed */
+  margin: 2%;
+  box-shadow: 0 2px 4px rgba(128, 128, 128, 0.34);
+  /* Adjust box shadow as needed */
+}
+
+.diagram-boxx {
+  width: 55%;
+  /* Adjust width to fit your design */
+  height: 60vh;
+  background-color: #fff;
+  /* Adjust as needed */
+  border: 1px solid #ddd;
+  /* Adjust border as needed */
+  border-radius: 8px;
+  /* Adjust border radius as needed */
+  margin: 2%;
+  box-shadow: 0 2px 4px rgba(128, 128, 128, 0.34);
+  /* Adjust box shadow as needed */
+}
+
+
+.diagram-title {
+  width: 100%;
+  height: 5vh;
+  margin-top: 7%;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.34);
+  color: blue;
+}
+
+.menu-icon {
+  color: blue;
+  /* Color of the icon */
+  font-size: 1.2em;
+  /* Adjust icon size as needed */
+  float: right;
+  margin-right: 5%;
+  margin-top: -30px;
+}
+
+.table-section {
+  margin-top: 30px;
+  /* Space above the table section */
+}
+
+.table-title {
+  color: rgb(67, 65, 65);
+  /* Title text color */
+  height: 5vh;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.34);
+  margin-left: 3%;
+
+}
+
+.titre {
+  margin-left: 2%;
+  width: 100%;
+  height: 2vh;
+  color: rgb(67, 65, 65);
+  /* Title text color */
+
+}
+
+.icons-container {
+  width: 20%;
+  height: 6vh;
+  float: right;
+  margin-top: -10vh;
+}
+
+.header-icon {
+  margin: 10%;
+}
+
+S .table {
+  margin-top: 10px;
+}
+
+.form-control {
+  margin-right: 10px;
+  /* Space between search input and date select */
+}
+
+.tableau {
+  height: 50vh;
+  background-color: #fff;
+  /* Adjust as needed */
+  border: 1px solid #ddd;
+  /* Adjust border as needed */
+  border-radius: 8px;
+  /* Adjust border radius as needed */
+  margin: 2%;
+  box-shadow: 0 2px 4px rgba(128, 128, 128, 0.34);
+  /* Adjust box shadow as needed */
+}
+
+.sele {
+  width: 20%;
+  height: 6vh;
+
+  margin-right: 2%;
+}
+
+.serch {
+  width: 20%;
+  height: 6vh;
+  margin-left: 2%;
+  margin-top: 3vh;
+}
+
+.pagination {
+  margin-top: 2px;
+  /* Space above pagination */
+
+}
+
+.page-item .page-link {
+  border-radius: 0;
+  /* Remove border radius if desired */
+}
+
+.page-link {
+  color: blue;
+  /* Color of page links */
+}
+
+.diagram-photo {
+  width: 100%;
+  height: 53vh;
+  background-color: black;
+}
+
+.diagram-photoo {
+  width: 100%;
+  height: 48vh;
+  background-color: black;
+}
+
+.img {
+  width: 100%;
+  height: 48vh;
+}
+
+.imgg {
+  width: 100%;
+  height: 54vh;
+}
+
+.tableaux {
+  width: 95%;
+  margin-left: 2%;
+}
+
+.foot {
+  float: right;
+}
+
+
+
+
+.profile-page {
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 8px;
+}
+
+.profile-header {
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(128, 128, 128, 0.34);
+  border-radius: 8px;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 30vh;
+  background-color: #fff;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.admin-role {
+  font-size: 18px;
+  color: #292626;
+  margin-top: 50vh;
+  width: 30%;
+  background-color: #0056b3;
+  height: 30vh;
+}
+
+.profile-section {
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 30vh;
+  width: 50%;
+  margin: 5%;
+
+}
+
+.profile-section h3 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.profile-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-section ul li {
+  margin-bottom: 10px;
+}
+
+/* .btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+
+/* .btn:hover {
+    background-color: #0056b3;
+  } */
+
+.personal-name {
+  width: 100%;
+  height: 6vh;
+  box-shadow: 0 2px 8px rgba(128, 128, 128, 0.34);
+
+}
+
+.card-personnal {
+  display: flex;
+  margin: 3%;
+}
