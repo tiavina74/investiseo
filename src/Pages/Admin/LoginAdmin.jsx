@@ -33,7 +33,7 @@ function Login() {
             <div className="overlay-panel overlay-right">
               <h1>Hello, Friend!</h1>
               <p>Enter your personal details and start journey with us</p>
-              <NavLink to ="/Signup">    <button className="ghost" >Sign Up</button></NavLink>
+              <NavLink to ="/utilisateurs/messages">    <button className="ghost" >Sign Up</button></NavLink>
             </div>
           </div>
         </div>

@@ -1,0 +1,280 @@
+.message-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.message-list{
+    width: 25%;
+    height: 100vh;
+
+}
+
+.message-details{
+    width: 50%;
+    height: 88vh;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.34);
+    margin-top: 11vh;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.message-profils{
+    width: 25%;
+    height: 88vh;
+    margin-left: 0.5%;
+margin-right: 0.5%;
+    margin-top: 11vh;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.34);
+}
+
+.message-search{
+    width: 96%;
+    height: 15vh;
+    margin-top: 11vh;
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.34);
+}
+
+.message-search h4 {
+    margin-left: 2%;
+
+}
+
+.form-select{
+    width: 35%;
+    height: 5vh;
+}
+
+.search{
+    width: 50%;
+    height: 5vh;
+margin-left: 8%;
+}
+
+.search-page{
+    display: flex;
+    width: 96%;
+    height: 6vh;
+    margin-left: 2%;
+    margin-top: 3vh;
+}
+
+.btn{
+    height: 5vh;
+    margin-left: 2%;
+}
+
+/* .message-tout{
+    width: 96%;
+    height: 70vh;
+    margin-top: 1vh;
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.34);
+} */
+
+
+
+
+.message-tout {
+    width: 96%;
+    height: 72vh;
+    margin-top: 1vh;
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.34);
+    overflow-y: auto; /* Ajoutez cette ligne pour permettre le défilement si les messages sont nombreux */
+}
+
+.message-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -4vh;
+}
+
+.message-info {
+    flex-grow: 1;
+}
+
+.message-info h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.message-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.message-time {
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+}
+
+.image-profil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.message-image{
+    width: 60%;
+    height: 25vh;
+    margin-left: 25%;
+    margin-top: 5vh;
+}
+
+.message-detprofils{
+    width: 90%;
+    height: 50vh;
+    margin-left: 5%;
+    margin-top: 3vh;
+}
+
+.message-header{
+    width: 100%;
+    height: 11vh;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.34);
+
+}
+
+.profile-picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 1.6vh;
+}
+
+.message-name{
+ width: 30%;
+ height: 10vh;
+ margin-left: 12%;
+ margin-top: -8vh;
+}
+
+.message-chat{
+    width: 100%;
+    height: 77vh;
+}
+
+/* Ajouté au fichier Messages.css */
+
+/* Styles pour la section de chat */
+.message-chat {
+    width: 100%;
+    height: 65vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-message {
+    max-width: 70%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .chat-message.received {
+    background-color: #e9ecef;
+    align-self: flex-start;
+  }
+  
+  .chat-message.sent {
+    background-color: #0d6efd;
+    color: white;
+    align-self: flex-end;
+  }
+  
+  .chat-time {
+    font-size: 0.75rem;
+    color: #6c757d;
+    margin-top: -10px;
+    text-align: right;
+    display: block;
+  }
+  
+  .message-header-icons {
+  width: 15%;
+  height: 5vh;
+    margin-left: 80%;
+    margin-top: -8vh;
+  }
+  
+  .header-icon {
+    font-size: 25px;
+    color: #555;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .online-icon {
+    font-size: 10px;
+    color: rgb(3, 230, 3); /* Green color indicates online */
+    margin-right: 5px; /* Space between the icon and the text */
+  }
+  
+
+  .message-envoyer{
+    width: 95%;
+    height: 10vh;
+    background-color: aqua;
+    margin-left: 2.5%;
+  }
+
+  /* Ajouté au fichier Messages.css */
+
+/* Styles pour la section d'envoi de message */
+.message-envoyer {
+    width: 95%;
+    padding: 10px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-message {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    margin-right: 10px;
+    margin-left: 2%;
+  }
+  
+  .btn-envoyer {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .btn-envoyer:hover {
+    background-color: #0a58ca;
+  }
+  

@@ -1,0 +1,62 @@
+/* Style de la barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Couleur de fond */
+    padding: 10px 20px; /* Espacement intérieur */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+}
+
+/* Style du logo et du nom de la plateforme */
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px; /* Taille du logo */
+    margin-right: 10px; /* Espacement entre le logo et le nom */
+}
+
+.platform-name {
+    color: #fff; /* Couleur du texte */
+    font-size: 24px; /* Taille de la police */
+    font-weight: bold; /* Épaisseur de la police */
+}
+
+/* Style des liens de la barre de navigation */
+.navbar-links {
+    list-style: none; /* Supprime les puces de la liste */
+    display: flex; /* Affiche les liens en ligne */
+    gap: 20px; /* Espacement entre les liens */
+}
+
+.navbar-links li {
+    display: inline; /* Affiche chaque élément de la liste en ligne */
+}
+
+.navbar-links a {
+    color: #fff; /* Couleur des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-size: 18px; /* Taille de la police des liens */
+    transition: color 0.3s; /* Transition pour l'effet de survol */
+}
+
+/* Couleur au survol des liens */
+.navbar-links a:hover {
+    color: #ffcc00; /* Couleur au survol */
+}
+
+/* Ajout d'un style pour les médias (responsive design) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Change l'orientation en colonne sur petits écrans */
+        align-items: flex-start; /* Aligne à gauche */
+    }
+
+    .navbar-links {
+        flex-direction: column; /* Aligne les liens en colonne */
+        gap: 10px; /* Réduit l'espacement entre les liens */
+    }
+}

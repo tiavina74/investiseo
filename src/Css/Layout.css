@@ -30,7 +30,6 @@
 
 .menup {
     font-weight: bold;
-    padding-top: 5vh;
     text-align: center;
     color: blue;
     font-size: 1.5rem;
@@ -44,7 +43,7 @@
 
 .sidebar button {
     width: 100%;
-    font-size: 0.9em;
+    font-size: 0.7em;
     border: none;
     background: none;
     text-align: left;

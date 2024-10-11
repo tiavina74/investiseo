@@ -13,7 +13,7 @@ function AdminCertificat() {
                     <h4 className='dashboard'>Certificat</h4>
                     <p>Friday · September 20, 2021 · 12:16 PM</p>
                     <div className="icons">
-                        <FontAwesomeIcon icon={faBell} className="header-icon" title="Notifications" />
+                        <FontAwesomeIcon icon={faBell} className="header-icon "  title="Notifications" />
                         <FontAwesomeIcon icon={faEnvelope} className="header-icon" title="Messages" />
                         <FontAwesomeIcon icon={faUser} className="header-icon" title="Profile" />
                     </div>
